@@ -17,7 +17,6 @@ export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
-          <NavbarComponent/>
             <Routes>
               <Route  path="/" element={<Home/>}></Route>
               <Route  path="/about" element={<About/>} />
@@ -26,6 +25,7 @@ export default class App extends Component {
               <Route  path="/specsAcc/:id" element={<SpecsAcc/>} />
               
               </Routes>
+              <NavbarComponent/>
       </BrowserRouter>
     )
   }

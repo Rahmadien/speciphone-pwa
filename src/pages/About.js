@@ -14,7 +14,7 @@ function About(){
   >
     {({ ref, ...triggerHandler }) => (
       <Button
-        variant="dark" href="/"
+        variant="primary" href="/"
         {...triggerHandler}
         className="d-inline-flex align-items-center"
       >

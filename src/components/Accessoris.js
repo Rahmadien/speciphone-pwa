@@ -16,7 +16,7 @@ const Accessoris = ({ accessoris }) => {
       <Card.Body>
         <Card.Title>{accessoris.nama}</Card.Title>
             <Card.Text>Rp.{numberWithCommas(accessoris.harga)}</Card.Text>
-            <Button variant="dark" href={"/specsAcc/" + accessoris.id}>Specs</Button>
+            <Button variant="primary" href={"/specsAcc/" + accessoris.id}>Specs</Button>
       </Card.Body>
     </Card>
    );
